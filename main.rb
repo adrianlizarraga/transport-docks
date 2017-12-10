@@ -1,1 +1,1 @@
-require'json';o=[];JSON.parse(ARGV[1]).each{|r|o+=JSON.parse(ARGV[0]).select{|i|i>=r[0]&&i<=r[1]}};p o
+def O(a,b)o=[];b.each{|r|o+=a.select{|i|i>=r[0]&&i<=r[1]}};o;end

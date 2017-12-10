@@ -11,6 +11,8 @@
 ## OLD RUBY IMPLEMENTATION
 ## Requirements
 - Ruby 2.4
-- json library: `gem install json`
+- irb
 ## How to run
-`ruby main.rb '[1, 1, 3, 3, 6, 4, 7]' '[[1, 4], [6, 7]]'`
+- Start interpreter: `irb`
+- Load file: `require './main.rb'`
+- Call function with 2 array arguments: `O([1, 2, 3, 4, 5, 6, 7],[[4,7], [1,3]])`
